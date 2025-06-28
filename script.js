@@ -25,8 +25,41 @@ window.addEventListener('scroll', () => {
 });
 
 // TESTIMONIAL SWIPER SLIDER
-let swiper = new Swiper('.testSwiper', {
+var swiper = new Swiper('.testSwiper', {
     slidesPerView:1,
     loop: true,
     autoplay: true,
+});
+
+// FILTERS
+var mixer = mixitup('.portfolio_images');
+
+// BLOG SWIPER SLIDER
+var swiper = new Swiper('.blogSwiper', {
+    slidesPerView:3,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: true,
+    breakpoints:{
+        1200:{
+            slidesPerView:2,
+            spaceBetween: 10,
+        },
+        900:{
+            slidesPerView:1,
+            spaceBetween: 10,
+        },
+        400:{
+            slidesPerView:1,
+            spaceBetween: 10,
+        },
+    }
+});
+
+// SHOW/HIDE MENU
+let bar = document.querySelector('.bars');
+let menu = document.querySelector('.menu');
+
+bar.addEventListener('click', () => {
+    menu.classList.toggle('show_nav');
 })
