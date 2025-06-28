@@ -30,4 +30,4 @@ NHT propose une gamme complète de services pour vous accompagner dans votre tra
 
 Vous avez un projet ? Une idée à concrétiser ?
 Contactez-nous et construisons ensemble votre futur digital.
-👉 NewHorizonTech365@outlook.com
+👉 newhorizontechnologie@gmail.com
